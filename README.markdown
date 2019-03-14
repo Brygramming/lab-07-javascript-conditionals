@@ -1,2 +1,2 @@
-This is lab 06.
+This is lab 07.
 It's about JavaScript conditionals
