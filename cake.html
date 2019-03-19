@@ -7,15 +7,18 @@
 	</head>
 	<body>
 		<script type="text/javascript">
-			var cake = prompt("Do you want cake?")
+			var cake = prompt("Do you want cake? Type 'yes' or 'no'.")
 
 			if(cake == "yes")
 			{
-				console.log("Have some cake");
-			} else
+				console.log("Have some cake.");
+			} else if(cake == "no")
 				{
 					console.log("No cake for you."); //>:P
-				}
+				} else
+					{
+						console.log("I don't understand.")
+					}
 		</script>
 	</body>
 </html>
